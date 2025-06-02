@@ -1,35 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
 function App() {
-  const [count, setCount] = useState(0)
 
-  return (
+  return ( //pq isso é um componente? pq retorna JSX, que é HTML com JS, e pode ser usado como um componente em outros lugares. Praq serve um componemnt? Serve para dividir a aplicação em partes menores, mais fáceis de entender e manter, injetar código.
+    //só pode ter uma div de retorn. ex.: não pode ter outro h1
+
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <h1>FrontEnd I</h1>
+      <h1>;)</h1>
     </>
+    
+    //ou vc incapsula dentro de outra tag ou você usa uma tag chamada fragment (<></>), que é uma tag vazia, que não renderiza nada no HTML final, mas permite que você retorne mais de um elemento. Exemplo:
   )
 }
 
-export default App
+export default App // export default é usado para exportar o componente App, assim ele pode ser importado em outros arquivos, como o main.tsx, que é o ponto de entrada da aplicação.
