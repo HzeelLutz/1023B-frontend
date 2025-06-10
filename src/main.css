@@ -10,3 +10,18 @@ header{
     right: 0;
     left: 0;
 }
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav>ul{
+    margin: 0;
+    display: flex;
+}
+
+nav>ul>li{
+    list-style: none;
+    padding: 0;
+}
