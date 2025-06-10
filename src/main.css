@@ -1,0 +1,12 @@
+:root{
+    --cor-primaria: #ee4d2d;
+    --gradiente-primario: linear-gradient(#ee4d2d,#ee4d2d,#ff7337);
+}
+
+header{
+    background: var(--gradiente-primario);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
