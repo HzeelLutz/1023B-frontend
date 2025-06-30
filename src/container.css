@@ -1,3 +1,17 @@
+/* box-shadow: 0px 0px 7px #672deec2; */
+/* border: 1px solid #672deec2; */
+/* box-shadow: 0px 0px 7px #672deec2; */
+
+.mensagem-erro{
+    position: fixed;
+    border: 1px solid coral;
+    width: fit-content;
+    padding: 0px 15px;
+    right: 15px;
+    background-color: #DC3545;
+    color:white
+}
+
 .container{
     margin-top: 150px;
     display: flex;
@@ -13,29 +27,30 @@
 .container-listagem{
     flex: 3;
     display: flex;
-    gap: 33px;
+    gap: 32px;
+    flex-wrap: wrap;
 }
 
 .container-cadastro{
     flex: 1;
     padding: 33px;
-    box-shadow: 0px 0px 7px #672deec2;
+    box-shadow: 0px 0px 7px rgb(102, 99, 104);
     box-sizing: border-box;
 }
 
 input{
     padding: 10px;
-    border: 1px solid #000000c2;
+    border: 1px solid rgb(0, 0, 0);
     outline: none;
 }
 
 input[type="text"]:focus{
-    border: 1px solid #672deec2;
+    border: 1px solid rgb(168, 100, 231);
 }
 
 .container-produto{
     flex: 1;
     padding: 23px;
-    box-shadow: 0px 0px 7px #672deec2;
+    box-shadow: 0px 0px 7px rgb(102, 99, 104);
     box-sizing: border-box;
 }
